@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#880e4f</color>
+    <color name="colorPrimaryDark">#560027</color>
+    <color name="colorAccent">#1111</color>
+    <color name="materialOrange">#880e4f</color>
+    <color name="materialRed">#ad1457</color>
+    <color name="materialYellow">#c2185b</color>
+    <color name="materialGreen">#d81b60</color>
+    <color name="materialGreen2">#e91e63</color>
+    <color name="colorPrimaryLight">#1111</color>
+    <color name="radioColor">#ffffff</color>
+    <color name="newOrange">#006064</color>
+    <color name="background">#e0e0e0</color>
+    <color name="darkNewOrange">#00251a</color>
+</resources>

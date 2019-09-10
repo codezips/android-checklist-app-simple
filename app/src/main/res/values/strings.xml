@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Simplest to do list</string>
+    <string name="result">Result</string>
+    <string name="dog">dog</string>
+    <string name="cat">Cat</string>
+    <string name="add">Add</string>
+    <string name="banner_ad_unit_id">ca-app-pub-5559182100997527/1404114895</string>
+    <string name="interstitial_full_screen">ca-app-pub-5559182100997527/2880848097</string>
+    <string name="five">5</string>
+    <string name="four">4</string>
+    <string name="three">3</string>
+    <string name="two">2</string>
+    <string name="one">1</string>
+    <string name="select_your_priority">Select your priority</string>
+    <string name="describe_your_task">What do you want to do next?</string>
+    <string name="share">Share</string>
+    <string name="rate">Rate</string>
+    <string name="download_adless">Download Adless</string>
+</resources>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:padding="16dp">
+    <EditText
+        android:id="@+id/editTextTaskDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:hint="@string/describe_your_task"
+        android:textColor="@color/darkNewOrange"
+        android:paddingBottom="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:textColor="@color/newOrange"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:text="@string/select_your_priority"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="5">
+
+            <Button
+                android:id="@+id/buttonP1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/one"
+                android:background="@color/materialOrange"
+                style="?android:attr/buttonBarButtonStyle"
+                android:textColor="@android:color/white"
+                android:layout_weight="1"
+                android:onClick="onPrioritySelected"/>
+            <Button
+                android:id="@+id/buttonP2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/two"
+                android:background="@color/materialRed"
+                style="?android:attr/buttonBarButtonStyle"
+                android:textColor="@android:color/white"
+                android:layout_weight="1"
+                android:onClick="onPrioritySelected"/>
+            <Button
+                android:id="@+id/buttonP3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/three"
+                android:background="@color/materialYellow"
+                style="?android:attr/buttonBarButtonStyle"
+                android:textColor="@android:color/white"
+                android:layout_weight="1"
+                android:onClick="onPrioritySelected"/>
+            <Button
+                android:id="@+id/buttonP4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/four"
+                android:background="@color/materialGreen"
+                style="?android:attr/buttonBarButtonStyle"
+                android:textColor="@android:color/white"
+                android:layout_weight="1"
+                android:onClick="onPrioritySelected"/>
+            <Button
+                android:id="@+id/buttonP5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="@string/five"
+                android:background="@color/materialGreen2"
+                style="?android:attr/buttonBarButtonStyle"
+                android:textColor="@android:color/white"
+                android:layout_weight="1"
+                android:onClick="onPrioritySelected"/>
+
+        </LinearLayout>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:weightSum="5">
+
+            <RadioButton
+                android:id="@+id/radButton1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="onPrioritySelected"
+                android:buttonTint="@color/radioColor"/>
+            <RadioButton
+                android:id="@+id/radButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onPrioritySelected"
+                android:layout_weight="1"
+                android:buttonTint="@color/radioColor"/>
+            <RadioButton
+                android:id="@+id/radButton3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onPrioritySelected"
+                android:layout_weight="1"
+                android:buttonTint="@color/radioColor"
+                />
+            <RadioButton
+                android:id="@+id/radButton4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onPrioritySelected"
+                android:layout_weight="1"
+                android:buttonTint="@color/radioColor"
+                />
+            <RadioButton
+                android:id="@+id/radButton5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="onPrioritySelected"
+                android:layout_weight="1"
+                android:buttonTint="@color/radioColor"
+                />
+
+        </RadioGroup>
+
+    </FrameLayout>
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/add"
+        style="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/primary_text_dark"
+        android:background="@color/colorPrimary"
+        android:onClick="onClickAddTask"/>
+
+
+
+</LinearLayout>

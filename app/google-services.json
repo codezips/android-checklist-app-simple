@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "364610782253",
+    "firebase_url": "https://simplest-checklist.firebaseio.com",
+    "project_id": "simplest-checklist",
+    "storage_bucket": "simplest-checklist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:364610782253:android:703bf27cac2f8b7d",
+        "android_client_info": {
+          "package_name": "com.ruturaj.android.simplist.simplestchecklist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "364610782253-3tuegu095396cl5fucrplsh7brbj92o0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ruturaj.android.simplist.simplestchecklist",
+            "certificate_hash": "2294adc6a40dd7df132dabadcd4b14e4f08a859a"
+          }
+        },
+        {
+          "client_id": "364610782253-0ea0inl9kopj6rc6hp736s7qnuins15n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACFaBpJ4MIdRuaNteoCzI_zN_dhoBMR0M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "364610782253-0ea0inl9kopj6rc6hp736s7qnuins15n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

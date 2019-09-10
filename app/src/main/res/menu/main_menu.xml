@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/share_id"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_share"
+        android:title="@string/share"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/rate_id"
+        android:orderInCategory="100"
+        android:title="@string/rate"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/adless"
+        android:icon="@android:drawable/star_big_on"
+        android:orderInCategory="100"
+        android:title="@string/download_adless"
+        app:showAsAction="ifRoom"/>
+
+</menu>
